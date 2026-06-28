@@ -1,6 +1,0 @@
-# Replace pb.yourdomain.com with the real subdomain that should serve PocketBase.
-pb.yourdomain.com {
-  encode gzip
-
-  reverse_proxy pocketbase:8090
-}
