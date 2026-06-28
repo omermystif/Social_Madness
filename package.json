@@ -17,7 +17,7 @@
     "sync": "node scripts/watcher.js",
     "sync:dry": "node scripts/watcher.js --dry-run",
     "sync:local": "node scripts/watcher.js --no-push",
-    "prepare": "husky"
+    "prepare": "husky || true"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
