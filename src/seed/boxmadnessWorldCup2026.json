@@ -1,0 +1,776 @@
+{
+  "generatedFrom": "boxmadness_world_cup_social_gantt_synced.xlsx",
+  "team": [
+    {
+      "email": "host@boxmadness.com",
+      "name": "Janet Reed",
+      "role": "Host / video lead"
+    },
+    {
+      "email": "social@boxmadness.com",
+      "name": "Mia Carter",
+      "role": "Social manager"
+    },
+    {
+      "email": "design@boxmadness.com",
+      "name": "Devon Ortiz",
+      "role": "Creative / design lead"
+    },
+    {
+      "email": "content@boxmadness.com",
+      "name": "Sam Lin",
+      "role": "Content strategist"
+    },
+    {
+      "email": "ops@boxmadness.com",
+      "name": "Alex Greene",
+      "role": "Compliance / ops"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "wc-phase-foundation-before-kickoff",
+      "name": "Phase: Foundation / Before Kickoff - Backfill from source calendar: explain online mystery Boxes, trust, category education, and soccer-summer teaser.",
+      "assignee": "content@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-02",
+      "due": "2026-06-08"
+    },
+    {
+      "id": "wc-phase-opening-week",
+      "name": "Phase: Opening Week - Two days to kickoff, one day to kickoff, Jun 11 opening day, first reveals, trust, long unboxing, UGC program.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-06-15"
+    },
+    {
+      "id": "wc-phase-match-day-ritual-father-s-day",
+      "name": "Phase: Match-Day Ritual + Father's Day - FAQ refresh, Father's Day angle, Chill/Wild education, weekly reveals, FB Live launch, community prompts.",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-16",
+      "due": "2026-06-22"
+    },
+    {
+      "id": "wc-phase-knockout-approaching-retention",
+      "name": "Phase: Knockout Approaching + Retention - Power-user tips, UGC drops, box-tier education, weekly reveals, FB Live #2, recap, July bridge.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-23",
+      "due": "2026-07-01"
+    },
+    {
+      "id": "wc-phase-knockout-extension",
+      "name": "Phase: Knockout Extension - Optional continuation window: repeat Lives, reveal rituals, match-day Shorts, trust/reminder posts.",
+      "assignee": "social@boxmadness.com",
+      "priority": "med",
+      "start": "2026-07-02",
+      "due": "2026-07-18"
+    },
+    {
+      "id": "wc-phase-final-weekend",
+      "name": "Phase: Final Weekend - World Cup final day milestone. Use compliant recap, community poll, and next-season retention handoff.",
+      "assignee": "social@boxmadness.com",
+      "priority": "med",
+      "start": "2026-07-19",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-pre-campaign-cast-on-camera-host",
+      "name": "Production: Cast on-camera host [Pre-campaign] - Use warm, plain-spoken host. Uploaded brief prefers mainstream 40+ central-US woman.",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-02",
+      "due": "2026-06-08"
+    },
+    {
+      "id": "wc-production-pre-campaign-batch-shoot",
+      "name": "Production: Batch shoot [Pre-campaign] - Shoot 14-16 short assets: unboxings, education, smart-play tips, trust/sourcing, match-day intros.",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-02",
+      "due": "2026-06-08"
+    },
+    {
+      "id": "wc-production-pre-campaign-fb-ig-profile-and-content-system",
+      "name": "Production: FB/IG profile and content system [Pre-campaign] - Refresh Facebook Page, Instagram profile, Highlights, Reel covers, and pillar templates.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-02",
+      "due": "2026-06-08"
+    },
+    {
+      "id": "wc-production-weekly-90-min-post-reel-design-block",
+      "name": "Production: 90-min post/Reel design block [Weekly] - Create 20 FB/IG creative variations from the coming week's content.",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-weekly-60-min-caption-and-scheduling-block",
+      "name": "Production: 60-min caption and scheduling block [Weekly] - Schedule FB, IG, and YT for the week.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-weekly-30-min-queue-review",
+      "name": "Production: 30-min queue review [Weekly] - Check terminology, approvals, CTAs, links, and thumbnails.",
+      "assignee": "ops@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-daily-20-min-community-management",
+      "name": "Production: 20-min community management [Daily] - Reply to previous-day comments, log FAQs, engage in relevant groups where permitted.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-daily-reshare-top-performer",
+      "name": "Production: Reshare top performer [Daily] - Turn the top-performing FB/IG creative into an IG Story, FB repost, or Reel remix.",
+      "assignee": "social@boxmadness.com",
+      "priority": "medium",
+      "start": "2026-06-09",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-mid-month-customer-content-review",
+      "name": "Production: Customer content review [Mid-month] - Collect reaction submissions, verify permission, select 3-5 for Week 4.",
+      "assignee": "ops@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-15",
+      "due": "2026-06-15"
+    },
+    {
+      "id": "wc-production-week-3-friday-live-prep",
+      "name": "Production: Friday Live prep [Week 3+] - 1-hour prep: rundown, approved Boxes, moderation plan, captions, links.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-20",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-week-3-30-min-fb-live",
+      "name": "Production: 30-min FB Live [Week 3+] - Host opens Boxes online, answers approved questions, explains mechanics.",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-20",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-production-week-3-cut-live-into-shorts-reels",
+      "name": "Production: Cut Live into Shorts/Reels [Week 3+] - Create 3-5 cuts from each Friday Live for Shorts/Reels and FB/IG story stills.",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-21",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-milestone-2026-06-09-two-days-to-kickoff",
+      "name": "Milestone: Two days to kickoff - Host-led match-day ritual demo; FB/IG watch-party prep posts/Reels.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-06-09"
+    },
+    {
+      "id": "wc-milestone-2026-06-10-one-day-to-kickoff",
+      "name": "Milestone: One day to kickoff - Box theme grid and soccer-summer Story/Reel push.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-10",
+      "due": "2026-06-10"
+    },
+    {
+      "id": "wc-milestone-2026-06-11-world-cup-kickoff-day",
+      "name": "Milestone: World Cup kickoff day - Real-time morning post, opening-match Short, opening-day posts/Reels. Do not use unconfirmed promo code unless approved.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-11",
+      "due": "2026-06-11"
+    },
+    {
+      "id": "wc-milestone-2026-06-15-ugc-pipeline-launch",
+      "name": "Milestone: UGC pipeline launch - Invite 30-second first-open reactions with permission flow; do not promise unapproved Credits incentive.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-15",
+      "due": "2026-06-15"
+    },
+    {
+      "id": "wc-milestone-2026-06-20-fb-live-debut",
+      "name": "Milestone: FB Live debut - Evening match-day Live: open Boxes, answer questions, cut Shorts/Reels next day.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-20",
+      "due": "2026-06-20"
+    },
+    {
+      "id": "wc-milestone-2026-06-21-father-s-day",
+      "name": "Milestone: Father's Day - Gift/occasion angle, Friday Live highlight, community photos with permission.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-milestone-2026-06-27-fb-live-2",
+      "name": "Milestone: FB Live #2 - Knockout-round Box Battle theme, carefully named around Battles mode.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-27",
+      "due": "2026-06-27"
+    },
+    {
+      "id": "wc-milestone-2026-06-30-month-end-recap",
+      "name": "Milestone: Month-end recap - Shipped Items / month recap, highlight compilation, retention CTA.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-30",
+      "due": "2026-06-30"
+    },
+    {
+      "id": "wc-milestone-2026-07-01-bridge-to-knockout-rounds",
+      "name": "Milestone: Bridge to knockout rounds - Preview new World Cup-themed Boxes/content through tournament.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-07-01",
+      "due": "2026-07-01"
+    },
+    {
+      "id": "wc-milestone-2026-07-19-world-cup-final",
+      "name": "Milestone: World Cup final - Future planning milestone: final-day recap + next-month handoff.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-07-19",
+      "due": "2026-07-19"
+    },
+    {
+      "id": "wc-daily-2026-06-09-facebook-native-video-video-match-day-ritual-demo",
+      "name": "Facebook native video: Video: match-day ritual demo [Two days to kickoff]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-06-09"
+    },
+    {
+      "id": "wc-daily-2026-06-09-youtube-shorts-ig-reels-short-match-day-ritual-in-30-seconds",
+      "name": "YouTube Shorts + IG Reels: Short: match-day ritual in 30 seconds [Two days to kickoff]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-06-09"
+    },
+    {
+      "id": "wc-daily-2026-06-09-fb-ig-watch-party-prep-post-reel-set",
+      "name": "FB/IG: Watch-party prep post/Reel set [Two days to kickoff]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-09",
+      "due": "2026-06-09"
+    },
+    {
+      "id": "wc-daily-2026-06-10-facebook-photo-grid-boxes-to-try-between-matches",
+      "name": "Facebook: Photo grid: Boxes to try between matches [One day to kickoff]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-10",
+      "due": "2026-06-10"
+    },
+    {
+      "id": "wc-daily-2026-06-10-fb-ig-soccer-summer-box-post-reel-pack",
+      "name": "FB/IG: Soccer-summer Box post/Reel pack [One day to kickoff]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-10",
+      "due": "2026-06-10"
+    },
+    {
+      "id": "wc-daily-2026-06-11-facebook-real-time-kickoff-morning-post",
+      "name": "Facebook: Real-time kickoff morning post [World Cup kickoff day]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-11",
+      "due": "2026-06-11"
+    },
+    {
+      "id": "wc-daily-2026-06-11-youtube-shorts-ig-reels-real-time-opening-match-box-open",
+      "name": "YouTube Shorts + IG Reels: Real-time opening match Box open [World Cup kickoff day]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-11",
+      "due": "2026-06-11"
+    },
+    {
+      "id": "wc-daily-2026-06-11-fb-ig-opening-day-post-reel-set",
+      "name": "FB/IG: Opening-day post/Reel set [World Cup kickoff day]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-11",
+      "due": "2026-06-11"
+    },
+    {
+      "id": "wc-daily-2026-06-12-facebook-carousel-first-day-item-reveals",
+      "name": "Facebook: Carousel: first-day Item reveals [First-day reveals]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-12",
+      "due": "2026-06-12"
+    },
+    {
+      "id": "wc-daily-2026-06-12-fb-ig-day-1-item-pull-posts-reels",
+      "name": "FB/IG: Day-1 Item-pull posts/Reels [First-day reveals]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-12",
+      "due": "2026-06-12"
+    },
+    {
+      "id": "wc-daily-2026-06-13-facebook-native-video-authenticity-and-sourcing-explainer",
+      "name": "Facebook native video: Authenticity and sourcing explainer [Trust + sourcing]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-13",
+      "due": "2026-06-13"
+    },
+    {
+      "id": "wc-daily-2026-06-13-fb-ig-trust-authenticity-post-reel-set",
+      "name": "FB/IG: Trust/authenticity post/Reel set [Trust + sourcing]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-13",
+      "due": "2026-06-13"
+    },
+    {
+      "id": "wc-daily-2026-06-14-facebook-native-video-long-unboxing-during-matches",
+      "name": "Facebook native video: Long unboxing during matches [Long unboxing]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-14",
+      "due": "2026-06-14"
+    },
+    {
+      "id": "wc-daily-2026-06-14-youtube-shorts-ig-reels-best-moment-cut",
+      "name": "YouTube Shorts + IG Reels: Best moment cut [Long unboxing]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-14",
+      "due": "2026-06-14"
+    },
+    {
+      "id": "wc-daily-2026-06-14-fb-ig-unboxing-pull-post-reel-set",
+      "name": "FB/IG: Unboxing pull post/Reel set [Long unboxing]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-14",
+      "due": "2026-06-14"
+    },
+    {
+      "id": "wc-daily-2026-06-15-facebook-community-reaction-program",
+      "name": "Facebook: Community reaction program [UGC pipeline launch]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-15",
+      "due": "2026-06-15"
+    },
+    {
+      "id": "wc-daily-2026-06-15-fb-ig-ugc-announcement-posts-reels",
+      "name": "FB/IG: UGC announcement posts/Reels [UGC pipeline launch]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-15",
+      "due": "2026-06-15"
+    },
+    {
+      "id": "wc-daily-2026-06-16-facebook-carousel-a-week-in-top-first-timer-questions",
+      "name": "Facebook carousel: A week in: top first-timer questions [FAQ refresh]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-16",
+      "due": "2026-06-16"
+    },
+    {
+      "id": "wc-daily-2026-06-16-youtube-shorts-ig-reels-three-things-before-your-first-box",
+      "name": "YouTube Shorts + IG Reels: Three things before your first Box [FAQ refresh]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-16",
+      "due": "2026-06-16"
+    },
+    {
+      "id": "wc-daily-2026-06-16-fb-ig-faq-education-post-reel-pack",
+      "name": "FB/IG: FAQ education post/Reel pack [FAQ refresh]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-16",
+      "due": "2026-06-16"
+    },
+    {
+      "id": "wc-daily-2026-06-17-facebook-father-s-day-soccer-fan-angle",
+      "name": "Facebook: Father's Day soccer fan angle [Father's Day prep]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-17",
+      "due": "2026-06-17"
+    },
+    {
+      "id": "wc-daily-2026-06-17-fb-ig-father-s-day-post-reel-pack",
+      "name": "FB/IG: Father's Day post/Reel pack [Father's Day prep]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-17",
+      "due": "2026-06-17"
+    },
+    {
+      "id": "wc-daily-2026-06-18-facebook-beginner-volatility-tip",
+      "name": "Facebook: Beginner Volatility tip [Smart Play tip]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-18",
+      "due": "2026-06-18"
+    },
+    {
+      "id": "wc-daily-2026-06-18-youtube-shorts-ig-reels-chill-and-wild-tags-explained",
+      "name": "YouTube Shorts + IG Reels: Chill and Wild tags explained [Smart Play tip]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-18",
+      "due": "2026-06-18"
+    },
+    {
+      "id": "wc-daily-2026-06-18-fb-ig-volatility-explainer-post-reel-set",
+      "name": "FB/IG: Volatility explainer post/Reel set [Smart Play tip]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-18",
+      "due": "2026-06-18"
+    },
+    {
+      "id": "wc-daily-2026-06-19-facebook-this-week-s-approved-item-reveals",
+      "name": "Facebook: This week's approved Item reveals [Weekly reveals]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-19",
+      "due": "2026-06-19"
+    },
+    {
+      "id": "wc-daily-2026-06-19-fb-ig-weekly-item-pull-posts-reels",
+      "name": "FB/IG: Weekly Item-pull posts/Reels [Weekly reveals]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-19",
+      "due": "2026-06-19"
+    },
+    {
+      "id": "wc-daily-2026-06-20-facebook-live-first-friday-live",
+      "name": "Facebook Live: First Friday Live [FB Live debut]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-20",
+      "due": "2026-06-20"
+    },
+    {
+      "id": "wc-daily-2026-06-20-fb-ig-live-announcement-posts-reels",
+      "name": "FB/IG: Live announcement posts/Reels [FB Live debut]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-20",
+      "due": "2026-06-20"
+    },
+    {
+      "id": "wc-daily-2026-06-21-facebook-father-s-day-community-post",
+      "name": "Facebook: Father's Day community post [Father's Day]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-daily-2026-06-21-youtube-shorts-ig-reels-friday-live-highlight",
+      "name": "YouTube Shorts + IG Reels: Friday Live highlight [Father's Day]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-daily-2026-06-21-fb-ig-father-s-day-wrap-up-posts-reels",
+      "name": "FB/IG: Father's Day wrap-up posts/Reels [Father's Day]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-daily-2026-06-22-facebook-best-reveal-of-the-week",
+      "name": "Facebook: Best reveal of the week [Community]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-22",
+      "due": "2026-06-22"
+    },
+    {
+      "id": "wc-daily-2026-06-22-fb-ig-best-of-week-posts-reels",
+      "name": "FB/IG: Best-of-week posts/Reels [Community]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-22",
+      "due": "2026-06-22"
+    },
+    {
+      "id": "wc-daily-2026-06-23-facebook-native-video-five-things-learned-from-the-month",
+      "name": "Facebook native video: Five things learned from the month [Power-user tips]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-23",
+      "due": "2026-06-23"
+    },
+    {
+      "id": "wc-daily-2026-06-23-youtube-shorts-ig-reels-single-best-tip-cut",
+      "name": "YouTube Shorts + IG Reels: Single best tip cut [Power-user tips]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-23",
+      "due": "2026-06-23"
+    },
+    {
+      "id": "wc-daily-2026-06-23-fb-ig-smart-play-post-reel-pack",
+      "name": "FB/IG: Smart-play post/Reel pack [Power-user tips]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-23",
+      "due": "2026-06-23"
+    },
+    {
+      "id": "wc-daily-2026-06-24-facebook-featured-customer-reaction",
+      "name": "Facebook: Featured customer reaction [First UGC drops]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-24",
+      "due": "2026-06-24"
+    },
+    {
+      "id": "wc-daily-2026-06-24-fb-ig-ugc-derived-posts-reels",
+      "name": "FB/IG: UGC-derived posts/Reels [First UGC drops]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-24",
+      "due": "2026-06-24"
+    },
+    {
+      "id": "wc-daily-2026-06-25-facebook-carousel-1-5-and-20-box-differences",
+      "name": "Facebook carousel: $1, $5, and $20 Box differences [Box tier education]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-25",
+      "due": "2026-06-25"
+    },
+    {
+      "id": "wc-daily-2026-06-25-youtube-shorts-ig-reels-1-vs-5-vs-20-boxes",
+      "name": "YouTube Shorts + IG Reels: $1 vs $5 vs $20 Boxes [Box tier education]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-25",
+      "due": "2026-06-25"
+    },
+    {
+      "id": "wc-daily-2026-06-25-fb-ig-tier-comparison-posts-reels",
+      "name": "FB/IG: Tier comparison posts/Reels [Box tier education]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-25",
+      "due": "2026-06-25"
+    },
+    {
+      "id": "wc-daily-2026-06-26-facebook-this-week-s-approved-item-reveals",
+      "name": "Facebook: This week's approved Item reveals [Weekly reveals]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-26",
+      "due": "2026-06-26"
+    },
+    {
+      "id": "wc-daily-2026-06-26-fb-ig-weekly-item-pull-posts-reels",
+      "name": "FB/IG: Weekly Item-pull posts/Reels [Weekly reveals]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-26",
+      "due": "2026-06-26"
+    },
+    {
+      "id": "wc-daily-2026-06-27-facebook-live-knockout-round-box-battles-theme",
+      "name": "Facebook Live: Knockout-round Box Battles theme [FB Live #2]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-27",
+      "due": "2026-06-27"
+    },
+    {
+      "id": "wc-daily-2026-06-27-fb-ig-live-2-announce-posts-reels",
+      "name": "FB/IG: Live #2 announce posts/Reels [FB Live #2]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-27",
+      "due": "2026-06-27"
+    },
+    {
+      "id": "wc-daily-2026-06-28-facebook-native-video-higher-tier-box-session",
+      "name": "Facebook native video: Higher-tier Box session [Long unboxing higher-tier]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-28",
+      "due": "2026-06-28"
+    },
+    {
+      "id": "wc-daily-2026-06-28-youtube-shorts-ig-reels-best-moment-from-higher-tier-session",
+      "name": "YouTube Shorts + IG Reels: Best moment from higher-tier session [Long unboxing higher-tier]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-28",
+      "due": "2026-06-28"
+    },
+    {
+      "id": "wc-daily-2026-06-28-fb-ig-higher-tier-session-posts-reels",
+      "name": "FB/IG: Higher-tier session posts/Reels [Long unboxing higher-tier]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-28",
+      "due": "2026-06-28"
+    },
+    {
+      "id": "wc-daily-2026-06-29-facebook-best-soccer-themed-reveal-poll",
+      "name": "Facebook: Best soccer-themed reveal poll [Community poll]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-29",
+      "due": "2026-06-29"
+    },
+    {
+      "id": "wc-daily-2026-06-29-fb-ig-community-spotlight-posts-reels",
+      "name": "FB/IG: Community spotlight posts/Reels [Community poll]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-29",
+      "due": "2026-06-29"
+    },
+    {
+      "id": "wc-daily-2026-06-30-facebook-june-recap",
+      "name": "Facebook: June recap [Month-end retention]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-30",
+      "due": "2026-06-30"
+    },
+    {
+      "id": "wc-daily-2026-06-30-youtube-shorts-ig-reels-month-recap-montage",
+      "name": "YouTube Shorts + IG Reels: Month recap montage [Month-end retention]",
+      "assignee": "host@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-30",
+      "due": "2026-06-30"
+    },
+    {
+      "id": "wc-daily-2026-06-30-fb-ig-month-recap-posts-reels",
+      "name": "FB/IG: Month recap posts/Reels [Month-end retention]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-30",
+      "due": "2026-06-30"
+    },
+    {
+      "id": "wc-daily-2026-07-01-facebook-knockout-rounds-are-next",
+      "name": "Facebook: Knockout rounds are next [Bridge to July]",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-07-01",
+      "due": "2026-07-01"
+    },
+    {
+      "id": "wc-daily-2026-07-01-fb-ig-what-s-next-posts-reels",
+      "name": "FB/IG: What's next posts/Reels [Bridge to July]",
+      "assignee": "design@boxmadness.com",
+      "priority": "high",
+      "start": "2026-07-01",
+      "due": "2026-07-01"
+    },
+    {
+      "id": "wc-global-all-june-pride-month",
+      "name": "Global: Pride Month - Optional brand/environmental cue only if approved: inclusive community tone, creator diversity, no rainbow-washing.",
+      "assignee": "content@boxmadness.com",
+      "priority": "low",
+      "start": "2026-06-01",
+      "due": "2026-06-30"
+    },
+    {
+      "id": "wc-global-2026-06-18-to-2026-06-21-u-s-open-golf-at-shinnecock-hills",
+      "name": "Global: U.S. Open golf at Shinnecock Hills - Sports-lifestyle crossover: Drip Cache, gear, steady hands, precision picks, match-day and course-day rituals.",
+      "assignee": "content@boxmadness.com",
+      "priority": "med",
+      "start": "2026-06-18",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-global-2026-06-19-juneteenth",
+      "name": "Global: Juneteenth - Respectful community/trust day. Keep promotional volume lighter; avoid using the holiday as a sales hook.",
+      "assignee": "ops@boxmadness.com",
+      "priority": "med",
+      "start": "2026-06-19",
+      "due": "2026-06-19"
+    },
+    {
+      "id": "wc-global-2026-06-21-father-s-day",
+      "name": "Global: Father's Day - Already in calendar: family/soccer-fan occasion angle, Item reveal and eligible Ship path.",
+      "assignee": "social@boxmadness.com",
+      "priority": "high",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-global-2026-06-21-june-solstice",
+      "name": "Global: June solstice - Longest-day energy: extended match-day ritual, summer kickoff, evening Live reminder.",
+      "assignee": "design@boxmadness.com",
+      "priority": "low",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-global-2026-06-21-international-day-of-yoga",
+      "name": "Global: International Day of Yoga - Light Smart Play angle: pause, choose your Volatility, play for entertainment.",
+      "assignee": "content@boxmadness.com",
+      "priority": "low",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-global-2026-06-21-world-music-day",
+      "name": "Global: World Music Day - Match-day playlist/community prompt: what is on your watch-party playlist?",
+      "assignee": "social@boxmadness.com",
+      "priority": "low",
+      "start": "2026-06-21",
+      "due": "2026-06-21"
+    },
+    {
+      "id": "wc-global-2026-06-23-olympic-day",
+      "name": "Global: Olympic Day - General sports-spirit hook: skill, training, collecting, performance gear; use sports theme without Olympic marks.",
+      "assignee": "social@boxmadness.com",
+      "priority": "low",
+      "start": "2026-06-23",
+      "due": "2026-06-23"
+    },
+    {
+      "id": "wc-global-2026-06-29-wimbledon-begins",
+      "name": "Global: Wimbledon begins - Court-season bridge: tennis/lifestyle Box theme, white-and-green summer sport aesthetic, non-official tennis language.",
+      "assignee": "content@boxmadness.com",
+      "priority": "med",
+      "start": "2026-06-29",
+      "due": "2026-06-29"
+    }
+  ]
+}

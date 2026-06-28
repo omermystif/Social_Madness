@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090909" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#FAFAF9" media="(prefers-color-scheme: light)" />
+    <title>Command — Box Madness</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="preconnect" href="https://accounts.google.com" crossorigin />
+    <link rel="preconnect" href="https://www.googleapis.com" crossorigin />
+    <script async defer src="https://accounts.google.com/gsi/client"></script>
+    <!-- No-flash theme bootstrap: runs BEFORE first paint. Reads localStorage,
+         falls back to OS preference. Sets html[data-theme] which CSS vars pivot on. -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('cmd_theme'); // 'light' | 'dark' | 'system' | null
+          var mode = (stored === 'light' || stored === 'dark') ? stored
+                   : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+          var root = document.documentElement;
+          root.setAttribute('data-theme', mode);
+          root.classList.toggle('dark', mode === 'dark');
+          root.classList.toggle('light', mode === 'light');
+          root.style.colorScheme = mode;
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-canvas text-ink antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
