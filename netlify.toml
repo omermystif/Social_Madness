@@ -1,0 +1,94 @@
+# Netlify deployment configuration for Command Dashboard (Vite + React SPA).
+# See docs/deployment-netlify.md for full setup instructions.
+
+[build]
+  command   = "npm ci && npm run build"
+  publish   = "dist"
+
+[build.environment]
+  NODE_VERSION    = "20"
+  NPM_VERSION     = "10"
+  # Vite reads VITE_* env vars at build time. Set VITE_GOOGLE_CLIENT_ID via the
+  # Netlify dashboard (Site settings → Environment variables) — NOT here, never commit secrets.
+  NODE_ENV        = "production"
+
+# ─── SPA routing ─────────────────────────────────────────────────────────────
+# Every unknown path returns index.html with HTTP 200 so client-side navigation works.
+# Static files (hashed bundles under /assets/...) are served verbatim because Netlify
+# matches them before this catch-all.
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# ─── Cache headers ───────────────────────────────────────────────────────────
+# Vite emits hashed filenames under /assets/. Safe to cache for one year, immutable.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# index.html must always revalidate so users get the freshest bundle references.
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ─── Security headers ────────────────────────────────────────────────────────
+# CSP is strict but permits the third-party origins this app actually contacts:
+#  - accounts.google.com  → GIS OAuth (script, iframe broker, popup parent)
+#  - apis.google.com      → GIS supporting endpoints
+#  - oauth2.googleapis.com → token endpoint
+#  - www.googleapis.com   → Calendar API + userinfo
+#  - rsms.me              → Inter font CSS/files
+#  - *.googleusercontent.com → user avatar URLs returned by Google
+# Adjust before adding new third parties.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = """
+      default-src 'self';
+      script-src 'self' https://accounts.google.com https://apis.google.com;
+      style-src 'self' 'unsafe-inline' https://rsms.me;
+      font-src 'self' data: https://rsms.me;
+      img-src 'self' data: blob: https://*.googleusercontent.com https://lh3.googleusercontent.com;
+      connect-src 'self' https://oauth2.googleapis.com https://www.googleapis.com https://accounts.google.com;
+      frame-src https://accounts.google.com;
+      frame-ancestors 'none';
+      base-uri 'self';
+      form-action 'self';
+      object-src 'none';
+      upgrade-insecure-requests
+    """
+    X-Frame-Options          = "DENY"
+    X-Content-Type-Options   = "nosniff"
+    Referrer-Policy          = "strict-origin-when-cross-origin"
+    Permissions-Policy       = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), accelerometer=()"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Cross-Origin-Opener-Policy = "same-origin-allow-popups"
+
+# ─── Asset MIME hardening ────────────────────────────────────────────────────
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Content-Type = "text/css; charset=utf-8"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Content-Type = "image/svg+xml"
+
+# ─── Branch deploys: skip CSP on deploy previews if it blocks testing ────────
+# Uncomment to relax CSP on branch previews only:
+# [context.deploy-preview.environment]
+#   DISABLE_CSP = "true"
